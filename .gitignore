@@ -1,0 +1,20 @@
+# Executables
+vdraw
+vdraw.exe
+*.out
+*.o
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Raylib build artifacts
+build/
+cmake-build-*/
+EOF
