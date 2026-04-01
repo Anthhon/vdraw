@@ -78,3 +78,7 @@ The visualizer is designed to make function experimentation easy. Edit the macro
 #define Y_FUNC_INPUT sin(t)      // Y coordinate function  
 #define Z_FUNC_INPUT t*m         // Z coordinate function (with parameter 'm')
 ```
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](./LICENSE) file for details.
