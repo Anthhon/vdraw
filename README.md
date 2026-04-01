@@ -6,7 +6,7 @@
 
 **vdraw** is an interactive 3D graphing tool built with Raylib that allows you to visualize mathematical functions in real-time. Plot parametric curves in 3D space with an intuitive camera system and dynamic controls.
 
-![vdraw Screenshot](screenshot.png)
+![vdraw Screenshot](./screenshots/screenshot.jpeg)
 
 ## Features
 
