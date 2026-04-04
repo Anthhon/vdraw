@@ -71,9 +71,14 @@ gcc -o vdraw vdraw.c -lraylib -framework OpenGL -framework Cocoa -framework IOKi
 
 ## Customizing Functions
 
-The visualizer is designed to make function experimentation easy. Edit the macro definitions at the top of `vdraw.c` to visualize any parametric function:
+The visualizer is designed to make function experimentation easy. Edit the macro definitions at the top of `main.h` to visualize any parametric function:
 
 ```c
+/////////////////////////////////
+// CHANGE FUNCTIONS INPUT HERE //
+// Obs.: Use 't' as the scalar //
+// and 'm' as controllable val //
+/////////////////////////////////
 #define X_FUNC_INPUT cos(t)      // X coordinate function
 #define Y_FUNC_INPUT sin(t)      // Y coordinate function  
 #define Z_FUNC_INPUT t*m         // Z coordinate function (with parameter 'm')
